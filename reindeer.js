@@ -6,6 +6,6 @@ var hohohoElement = document.getElementById("coloredReindeer");
 numOfReindeer=reindeer.length;
 colorfulReindeer=[];
 for (var i=0; i<numOfReindeer;i++) {
-	colorfulReindeer.push(colors[i]+" "+reindeer[i])
+	colorfulReindeer.push(colors[i]+" "+reindeer[i]);
 	hohohoElement.innerHTML+=colorfulReindeer[i]+"<br>";
 }
